@@ -1,6 +1,9 @@
 # Flutter Todo Clean
 
-Una aplicación de Todo List implementada en Flutter siguiendo los principios de Clean Architecture y utilizando el patrón BLoC para la gestión del estado.
+Una aplicación de CRUD Todo List implementada en Flutter siguiendo los principios de Clean Architecture y utilizando el patrón BLoC para la gestión del estado.
+Este proyecto es una implementación de una aplicación de "Lista de Tareas" (Todo List) utilizando Clean Architecture en Flutter, 
+junto con el patrón BLoC para gestionar el estado. La aplicación permite agregar, eliminar y modificar tareas en una lista. 
+Utiliza la librería hydrated_bloc para persistencia del estado y equatable para comparar objetos de manera eficiente.
 
 ## 📱 Características
 
@@ -57,7 +60,7 @@ lib/
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/flutter_todo_clean.git
+git clone https://github.com/EliazarNoaLlas/CRUD-Todo-Clean.git
 cd flutter_todo_clean
 ```
 

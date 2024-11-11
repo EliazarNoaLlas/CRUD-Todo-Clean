@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   TextEditingController controller2 = TextEditingController();
 
                   return AlertDialog(
-                    title: const Text('Add a Task'),
+                    title: const Text('Añadir una Tarea'),
                     content: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           controller: controller1,
                           cursorColor: Theme.of(context).colorScheme.secondary,
                           decoration: InputDecoration(
-                            hintText: 'Task Title...',
+                            hintText: 'Título de la tarea...',
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                               borderSide: BorderSide(
@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           controller: controller2,
                           cursorColor: Theme.of(context).colorScheme.secondary,
                           decoration: InputDecoration(
-                            hintText: 'Task Description...',
+                            hintText: 'Descripción de la tarea...',
                             focusedBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                               borderSide: BorderSide(
@@ -176,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   backgroundColor: const Color(0xFFFE4A49),
                                   foregroundColor: Colors.white,
                                   icon: Icons.delete,
-                                  label: 'Delete',
+                                  label: 'Eliminar',
                                 ),
                               ],
                             ),

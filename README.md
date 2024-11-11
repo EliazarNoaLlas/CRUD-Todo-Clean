@@ -157,3 +157,11 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 - Flutter Team
 - Bloc Library Contributors
 - [Otros agradecimientos...]
+
+## 🙏 Capturas de Pantalla
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
